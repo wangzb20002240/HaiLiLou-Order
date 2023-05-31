@@ -25,9 +25,9 @@ public class WeChatUtil {
         //接口所需参数
         HashMap<String, Object> requestUrlParam = new HashMap<>();
         //TODO:小程序appId
-        requestUrlParam.put("appid", "wx5107eed22ef8e616");
+        requestUrlParam.put("appid", "");
         //TODO:小程序secret
-        requestUrlParam.put("secret", "512855118dc3667a708db1a83060ea17");
+        requestUrlParam.put("secret", "");
         //小程序端返回的code
         requestUrlParam.put("js_code", code);
         //默认参数，固定写死即可
